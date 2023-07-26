@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+*{
+    margin: 0;
+    pad: 0;
+}
+
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-family: 'Arimo', sans-serif;
+ /*   background-image: url('../img/fundo-branco.jpg');*/
+    color: #343A40;
+}
+.drop{
+  display: none;
+}
+.nav_bar{
+    display: flex;
+    margin-left: 40px;
+    margin-left: 40px;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    
+ 
+}
+
+
+a:hover{
+  color: #FF7957;
+}
+
+ul{
+    display: flex;
+    
+    margin: auto;
+    margin-right: 0;
+    list-style: none;
+}
+
+li{
+   margin-right: 40px;
+}
+
+li > img {
+  width: 16px;
+}
+
+#logo > img{
+    margin-left: 40px;
+    width: 100px;
+}
+
+
+a{
+    text-decoration: none;
+    color:black;
+    font-weight: bolder;
+
+}
+
+main{
+    margin-left: 40px;
+    margin-right: 40px;
+   background-color: white;
+   box-shadow: 0px 0px 5px rgb(0, 204, 255);
+}
+
+.container_principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h1{
+    font-size: 3em;
+    text-shadow: 1px 1px 2px black;
+}
+
+
+
+strong{
+  color: #FF7957;
+  
+}
+
+#eu{
+    width: 350px;
+    margin-right: 100px;
+}
+
+.div_foto{
+    margin: auto;
+    margin-right: 40px;
+}
+
+.div_texto{
+    margin: auto;
+    margin-left: 40px;
+}
+
+.cv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 0 20px 0;
+  cursor: pointer;
+  background-color:#343A40;
+  color: white;
+  font-size: 15px;
+  font-weight: 800;
+  border-radius: 35px;
+  text-align: center;
+  height: 40px;
+  width: 150px;
+}
+
+#cv_2{
+  background-color: #FF7957;
+  margin-top: 40px;
+}
+
+#cv_2:hover{
+  background-color: #c95e43;
+}
+.cv:hover{
+  background-color: #202428;
+}
+
+.div_botoes{
+    display: flex;
+}
+
+.div_botoes > div{
+    margin: 5px;
+}
+
+#git{
+    width: 70px;
+    border-radius: 50%;
+    color: blue;
+    background-color: blue;
+}
+
+#linkdin{
+    width: 70px;
+    border-radius: 50%;
+    background: white;
+}
+.foto_sobre{
+  
+    border: 1px solid white;
+    margin: auto;
+
+}
+
+.texto_sobre{
+  display: flex;
+  align-items: center;
+    height: 500px;
+    margin-left: 40px;
+    margin-top: 20px;
+   
+}
+
+.texto_sobre_div{
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  margin-top: 80px;
+}
+
+.eu_sobre{
+   
+    width: 215px;
+ 
+ 
+}
+
+.container_sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+
+p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.container_certificados{
+    display: flex;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+
+    
+}
+
+.foto_certificado{
+  max-width: 750px;
+}
+
+h2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.cursos{
+    display: flex;
+  
+}
+
+
+.habilidades{
+
+    text-align: center;
+    margin: auto;
+    margin-bottom: 0;
+   
+  
+}
+
+.habilidades > ul{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.habilidades > ul > li{
+    margin-top: 20px;
+}
+
+.container_experiencia{
+    padding-top: 10px;
+    padding-bottom: 50px;
+    margin-left: 40px;
+   
+}
+
+.socials {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+  }
+  
+  .socials .social-item {
+    display: block;
+    margin: 0 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #ff7a57;
+    color: #ff7a57;
+    text-align: center;
+    line-height: 40px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-decoration: none;
+  }
+  
+  .socials .social-item:hover {
+    background: #ff7a57;
+    color: #fff;
+  }
+  
+  .btn {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .btn.btn-primary {
+    color: #fff;
+  }
+  
+  .btn.rounded {
+    border-radius: 50px !important;
+  }
+  
+  .btn.w-sm {
+    min-width: 100px;
+  }
+  
+  .btn.w-md {
+    min-width: 130px;
+  }
+  
+  .btn.w-lg {
+    min-width: 160px;
+  }
+
+  .container_projetos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+    
+  }
+
+  .titulo_projetos{
+    
+    text-align: center;
+   
+  }
+ 
+
+  .img-wrapper > img {
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  h3{
+    margin-top: 60px;
+  }
+
+  .texto_projeto{
+    text-align: left;
+    margin: 40px 20px 40px 40px;
+    width: 400px;
+  }
+
+
+
+  .img-wrapper {
+   
+    max-width: 470px;
+    height: 230px;
+    margin: 0 30px 0 30px;
+    border: 4px solid #FF7957;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+  
+  }
+  
+  .img-wrapper img {
+    position: relative;
+    width: 100%;
+    z-index: 8;
+  }
+  
+  .img-wrapper .overlay {
+    background: rgba(255, 122, 87, 0.7);
+    position: absolute;
+    left: 0;
+    bottom: 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+  
+  .img-wrapper .overlay .overlay-infos {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-transition-delay: .2s;
+            transition-delay: .2s;
+    color: #fff;
+  }
+  
+  .img-wrapper .overlay .overlay-infos h5 {
+    margin-bottom: 15px;
+  }
+  
+  .img-wrapper .overlay .overlay-infos a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .img-wrapper .overlay .overlay-infos a:hover {
+    background: #fff;
+    color: #ff7a57;
+  }
+  
+  .img-wrapper:hover .overlay, .img-wrapper:active .overlay {
+    bottom: 0;
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .img-wrapper:hover .overlay .overlay-infos, .img-wrapper:active .overlay .overlay-infos {
+    top: 50%;
+  }
+  
+ 
+
+  footer{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 200px;
+    text-align: center;
+    border-top: 1px solid  #BABBC0;
+  }
