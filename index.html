@@ -17,27 +17,40 @@
   </head>
   <body  data-bs-spy="scroll" data-bs-target="#menu">
     <div id="home"></div>
-    <ul id="#menu" style="height: 80px; border-bottom: 1px solid #343A40; background-color: white; " class="nav nav-underline  justify-content-end align-items-center sticky-top">
-      <li class="nav-item">
-        <img style="width: 80px; margin-right: 190px;" src="img/oculos_branco.png" >
-      </li>
-      <li class="nav-item active">
-        <a style="color:#FF7957;" class="nav-link" aria-current="page" href="#home">HOME</a>
-      </li>
-      <li class="nav-item">
-        <a style="color:#FF7957;" class="nav-link " href="#sobre">SOBRE</a>
-      </li>
-      <li class="nav-item">  
-        <a style="color:#FF7957;" class="nav-link" href="#certificados">CERTIFICADOS</a>
-      </li>
-      <li class="nav-item">
-        <a style="color:#FF7957;" class="nav-link" href="#experiencia" >EXPERIENCIA</a>
-      </li>
-      <li class="nav-item">
-        <a style="color:#FF7957;" class="nav-link" href="#projetos" >PROJETOS</a>
-      </li>
-    </ul>
+    
    
+      <nav style="background-color:#343A40 ;"  class="navbar navbar-expand-lg   sticky-md-top ">
+        <div class="container-fluid">
+          <img  style="width: 64px;" src="img/M.png" alt="">
+          <button style="background-color: white;" class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul id="menu" class="navbar-nav nav-underline  mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-white" aria-current="page" href="#home">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-white" href="#sobre">SOBRE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-white" href="#certificados">CERTIFICADOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-white" href="#experiencia">EXPERIENCIA</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-white" href="#projeto">PROJETOS</a>
+              </li>
+      
+            </ul>
+      
+          </div>
+        </div>
+      </nav>
+   
+ 
+    
     
     <main>
     
@@ -152,48 +165,16 @@
           </div>
         </div>
       </section>
-      <!--
-         <section>
-          <h2 style="margin-left: 40px;">PROJETOS</h2>
-          <div class="container_projetos">
-            
-            <div class="titulo_projetos">
-              <h3>MAKE YOUR BURGER</h3>
-              <div class="img-wrapper">
-                <img src="img/Buger1.png" alt="">
-                <div class="overlay">
-                  <div class="overlay-infos">
-                      <h5>Project Title</h5>
-                      <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                      <a href="javascript:void(0)"><i class="ti-link"></i></a>
-                  </div>  
-              </div>
-               <div class="texto_projeto">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis pariatur, voluptas, minima repudiandae praesentium enim non itaque alias perferendis esse quis similique deleniti aliquam a dicta incidunt, libero molestias eaque!</p>
-              </div>
-            </div>
-
-            
-
-           
-           
-
-           
-
-            
-
-
-          </div>
-         </section>
-        -->
-      <div id="projetos"></div>
-      <section>
-        <div class="loguinho">
-          <h2 style="margin-left: 40px; ">
+  
+      <section id="projeto" >
+        <div  class="loguinho">
+          <h2  style="margin-left: 40px; ">
             PROJETOS <img style="width: 32px" src="img/ideia.png" alt="" />
           </h2>
         </div>
+
         <div class="container_projetos">
+         
           <div class="titulo_projetos">
             <div class="img-wrapper">
               <img src="img/Buger1.png" alt="" />
@@ -342,6 +323,8 @@
           </div>
         </div>
       </section>
+   
+
     </main>
     <footer>
       <p style="margin: auto; margin-left: 40px">Copyright 2023 © DevCRUD</p>
