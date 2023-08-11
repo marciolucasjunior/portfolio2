@@ -1,5 +1,13 @@
 
 @media screen and (max-width:878px){
+
+
+    
+     
+
+    main{
+        margin: 0;
+    }
  
    .drop{
     display: block;
