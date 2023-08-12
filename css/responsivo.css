@@ -1,12 +1,14 @@
 
-@media screen and (max-width:878px){
+@media screen and (max-width:895px){
 
-
-    
-     
 
     main{
         margin: 0;
+    }
+
+
+    .div_texto{
+      margin: 0;
     }
  
    .drop{
