@@ -105,10 +105,11 @@
 
     .texto_projeto{
      
-       margin: 0px;
+       margin: 40px;
     }
    
     .img-wrapper{
+        max-width: 350px;
         height: 200px;
      
     }
