@@ -1,12 +1,11 @@
 
 @media screen and (max-width:895px){
 
-     body{
-       
-     }
+   
     main{
         margin: 0;
         overflow: hidden;
+        background-color: yellow;
     }
       
     .div_texto{
@@ -102,6 +101,11 @@
         align-items: center;
         text-align: center;
       
+    }
+
+    .texto_projeto{
+     
+       margin: 0px;
     }
    
     .img-wrapper{
