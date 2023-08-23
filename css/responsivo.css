@@ -1,12 +1,13 @@
 
 @media screen and (max-width:895px){
 
-
-    main{
-      display: none;
-    }
-
-
+      
+  
+ 
+     main{
+       
+        background-color: rgb(0, 213, 255);
+     }
     .div_texto{
       margin: 0;
     }
