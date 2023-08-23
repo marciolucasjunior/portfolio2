@@ -5,6 +5,8 @@
     main{
         margin: 0;
         overflow: hidden;
+        background-color: #343A40;
+        color: white;
     
     }
       
@@ -138,6 +140,13 @@
 }
 
 @media screen and (max-width:600px){
+
+    .container_projetos{
+        display: flex;
+        align-items: center;
+   
+    }
+
     .texto_projeto{
         max-width: 340px;
         margin: 40px;
