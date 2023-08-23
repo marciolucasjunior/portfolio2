@@ -5,7 +5,7 @@
     main{
         margin: 0;
         overflow: hidden;
-        background-color: yellow;
+
     }
       
     .div_texto{
@@ -104,7 +104,7 @@
     }
 
     .texto_projeto{
-     
+       max-width: 350px;
        margin: 40px;
     }
    
